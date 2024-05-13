@@ -1,22 +1,3 @@
-# from textblob import TextBlob
-# # from newspaper import Article
-#
-# # url = 'https://en.wikipedia.org/wiki/2020_California_wildfires'
-# # article = Article(url)
-# #
-# # article.download()  # download the article
-# # article.parse()  # convert it into a readable format
-# # article.nlp()  # to use NLP functions on it
-# #
-# # text = article.summary
-# # print(text)
-#
-# text = "this is the best project ever"
-#
-# blob = TextBlob(text)
-# sentiment = blob.sentiment.polarity   # -1 to 1
-# print(sentiment)
-
 import tkinter as tk
 from tkinter import ttk, filedialog
 from tkinter import messagebox
