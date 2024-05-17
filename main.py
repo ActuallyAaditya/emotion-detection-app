@@ -16,7 +16,6 @@
 # blob = TextBlob(text)
 # sentiment = blob.sentiment.polarity   # -1 to 1
 # print(sentiment)
-
 import tkinter as tk
 from tkinter import ttk, filedialog
 from tkinter import messagebox
