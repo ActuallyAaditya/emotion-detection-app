@@ -1,21 +1,3 @@
-# from textblob import TextBlob
-# # from newspaper import Article
-#
-# # url = 'https://en.wikipedia.org/wiki/2020_California_wildfires'
-# # article = Article(url)
-# #
-# # article.download()  # download the article
-# # article.parse()  # convert it into a readable format
-# # article.nlp()  # to use NLP functions on it
-# #
-# # text = article.summary
-# # print(text)
-#
-# text = "this is the best project ever"
-#
-# blob = TextBlob(text)
-# sentiment = blob.sentiment.polarity   # -1 to 1
-# print(sentiment)
 import tkinter as tk
 from tkinter import ttk, filedialog
 from tkinter import messagebox
@@ -61,8 +43,6 @@ def open_file():
             detect_emotion_input(content)
         except FileNotFoundError:
             messagebox.showerror("Error", "File not found")
-        except Exception as e:
-            messagebox.showerror("Error", e)
 
 
 def exit_app():
@@ -90,7 +70,7 @@ root.title("Emotion Detector")
 
 # Main menu frame
 menu_frame = tk.Frame(root, height=270, width=400)
-menu_frame.pack_propagate(0)  # prevent resizing
+menu_frame.pack_propagate(0)
 menu_frame.pack(pady=20, anchor="center")
 
 title_label = tk.Label(menu_frame, text="Emotion Detection App", font=('Helvetica', 20, 'bold'))
