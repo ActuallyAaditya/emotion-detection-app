@@ -20,8 +20,25 @@ This Python project focuses on detecting emotions in text, categorizing them as 
 
 The required libraries for this project
 ```
+pip install nltk
+```
+```
 pip install textblob
+```
+```
 pip install tk
+```
+```
+pip install pandas
+```
+```
+pip install numpy
+```
+```
+pip install matplotlib
+```
+```
+pip install seaborn
 ```
 
 ### Executing program
