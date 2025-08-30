@@ -6,9 +6,8 @@ This Python project uses NLP to detect emotions in text and classifies it into t
 ## Contribution
 
 1. Aaryan Pratap Kalra (2210990015)
-2. Aayushi Swami (2210990023)
-3. Aaditya Sharma (2210990005)
-4. Aaditya Bhalla (2210990004)
+2. Aaditya Sharma (2210990005)
+3. Aaditya Bhalla (2210990004)
 
 ## Description
 
